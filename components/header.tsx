@@ -40,19 +40,19 @@ export function Header() {
                 <span className="sr-only">Open menu</span>
               </Button>
             </SheetTrigger>
-            <SheetContent side="right" className="w-[300px] sm:w-[400px]">
+            <SheetContent side="right" className="w-[300px] sm:w-[400px] bg-gray-800 border-none">
               <VisuallyHidden>
                 <DialogTitle>Home</DialogTitle>
               </VisuallyHidden>
               <nav className="flex flex-col gap-4">
                 {navigation.map((item) => (
-                  <Link
+                  <ActiveLink
                     key={item.name}
                     href={item.href}
                     className="text-lg font-semibold flex gap-2 uppercase"
                   >
                     {item.icon} {item.name}
-                  </Link>
+                  </ActiveLink>
                 ))}
               </nav>
             </SheetContent>

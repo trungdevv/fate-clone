@@ -15,7 +15,6 @@ export default async function Products() {
     options
   );
   const resultCategories = await dataCategories.json();
-  console.log(resultProduct.data.products);
   const categories = Array.from(
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     new Set(resultCategories.data.categories.map((item : any) => item.title))

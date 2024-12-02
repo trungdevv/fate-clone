@@ -5,7 +5,7 @@ import React from "react";
 import logo from "@/public/image/logo.webp";
 import { TypeAnimation } from "react-type-animation";
 import { Button } from "@/components/ui/button";
-import { RadioTower, ShoppingCart } from "lucide-react";
+import { ShoppingCart } from "lucide-react";
 import Link from "next/link";
 
 const Intro = () => {

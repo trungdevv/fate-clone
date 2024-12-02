@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import {
   Breadcrumb,
   BreadcrumbList,
@@ -6,7 +7,7 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import SellixEmbed from "@/components/ui/sellix-button";
-import { Bell, ChevronDownIcon, Slash, Star } from "lucide-react";
+import { Slash, Star } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 const options = {
@@ -16,11 +17,8 @@ const options = {
       "Bearer JVWaSufjDGNwrawm9DUHAdsoMUmA6itv9HxqfcXymR84vGWDaGXyxopqzICyRuJY",
   },
 };
-export default async function Page({
-  params: { id },
-}: {
-  params: { id: string };
-}) {
+export default async function Page({ params }: any) {
+  const { id }  = await params
   const dataProduct = await fetch(
     `https://dev.sellix.io/v1/products/${id}`,
     options

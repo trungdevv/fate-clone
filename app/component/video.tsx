@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { Divider } from "@/components/ui/divider";
 import React from "react";
 
@@ -37,9 +38,9 @@ export const Video = () => {
               Vsync Valorant: Dominate the FPS Arena with Expert Cheats
             </h1>
             <p className="pb-6 text-base font-normal text-gray-500 py-4">
-              Outshoot and outsmart your rivals in Valorant's intense
+              Outshoot and outsmart your rivals in Valorant&apos;s intense
               first-person shooter battles with our premium cheats. Offering a
-              suite of feature-rich, undetected tools that ensure you're always
+              suite of feature-rich, undetected tools that ensure you&apos;re always
               a step ahead, our cheats are the top choice for FPS enthusiasts
               seeking quality and performance. Secure your spot at the top of
               the scoreboard with the finest Valorant cheats available.
@@ -61,7 +62,7 @@ export const Video = () => {
               Enhance your tactical performance with our superior Rainbow Six
               Siege hacks. Crafted for discretion and loaded with advanced
               features to secure your advantage, our hacks are affordably priced
-              to suit any player's budget. Experience an undetectable gaming
+              to suit any player&apos;s budget. Experience an undetectable gaming
               journey that propels you to Champion rank with ease. Achieve
               high-caliber results without stretching your finances.
             </p>

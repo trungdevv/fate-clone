@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import {
   Accordion,
   AccordionContent,
@@ -38,7 +39,7 @@ export function Faq() {
             effectively. At Fate Shop, we pride ourselves on offering only the
             finest products — every cheat we sell has been rigorously tested and
             is fully endorsed by our team. This means when you choose Fate Shop,
-            you're not just purchasing a product; you're investing in a solution
+            you&apos;re not just purchasing a product; you&apos;re investing in a solution
             we believe in and stand behind 100%. Our customers say it all!
           </AccordionContent>
         </AccordionItem>
